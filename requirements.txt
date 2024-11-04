@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+openai
+pinecone-client
+pdfplumber
+sentence-transformers
+transformers
+torch
+python-dotenv

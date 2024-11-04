@@ -1,0 +1,789 @@
+2024-11-04 13:11:10,673 - INFO - Connected to MongoDB Atlas.
+2024-11-04 13:11:10,674 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\hp\\AppData\\Roaming\\Python\\Python312\\site-packages\\pinecone_plugins'])
+2024-11-04 13:11:10,675 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-04 13:11:10,685 - INFO - Installing plugin inference into Pinecone
+2024-11-04 13:11:24,277 - INFO - Connected to Pinecone index 'pdf-chatbot-index'.
+2024-11-04 13:11:24,280 - INFO - Use pytorch device_name: cpu
+2024-11-04 13:11:24,280 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-11-04 13:11:55,785 - INFO - Loaded Sentence Transformer model 'sentence-transformers/all-MiniLM-L6-v2'.
+2024-11-04 13:11:55,908 - INFO - Embedding dimension: 384
+2024-11-04 13:11:55,931 - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2024-11-04 13:13:10,724 - INFO - Connected to MongoDB Atlas.
+2024-11-04 13:13:10,725 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\hp\\AppData\\Roaming\\Python\\Python312\\site-packages\\pinecone_plugins'])
+2024-11-04 13:13:10,725 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-04 13:13:10,738 - INFO - Installing plugin inference into Pinecone
+2024-11-04 13:13:24,532 - INFO - Connected to Pinecone index 'pdf-chatbot-index'.
+2024-11-04 13:13:24,536 - INFO - Use pytorch device_name: cpu
+2024-11-04 13:13:24,536 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-11-04 13:13:29,261 - INFO - Loaded Sentence Transformer model 'sentence-transformers/all-MiniLM-L6-v2'.
+2024-11-04 13:13:29,397 - INFO - Embedding dimension: 384
+2024-11-04 13:25:51,104 - INFO - Connected to MongoDB Atlas.
+2024-11-04 13:25:51,105 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\hp\\AppData\\Roaming\\Python\\Python312\\site-packages\\pinecone_plugins'])
+2024-11-04 13:25:51,106 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-04 13:25:51,224 - INFO - Installing plugin inference into Pinecone
+2024-11-04 13:26:04,959 - INFO - Connected to Pinecone index 'pdf-chatbot-index'.
+2024-11-04 13:26:04,961 - INFO - Use pytorch device_name: cpu
+2024-11-04 13:26:04,961 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-11-04 13:26:09,825 - INFO - Loaded Sentence Transformer model 'sentence-transformers/all-MiniLM-L6-v2'.
+2024-11-04 13:26:09,942 - INFO - Embedding dimension: 384
+2024-11-04 13:52:02,666 - INFO - Connected to MongoDB Atlas.
+2024-11-04 13:52:02,667 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\hp\\AppData\\Roaming\\Python\\Python312\\site-packages\\pinecone_plugins'])
+2024-11-04 13:52:02,667 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-04 13:52:02,775 - INFO - Installing plugin inference into Pinecone
+2024-11-04 13:52:16,984 - INFO - Connected to Pinecone index 'pdf-chatbot-index'.
+2024-11-04 13:52:16,987 - INFO - Use pytorch device_name: cpu
+2024-11-04 13:52:16,988 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-11-04 13:52:23,181 - INFO - Loaded Sentence Transformer model 'sentence-transformers/all-MiniLM-L6-v2'.
+2024-11-04 13:52:23,258 - INFO - Embedding dimension: 384
+2024-11-04 13:55:06,757 - INFO - Connected to MongoDB Atlas.
+2024-11-04 13:55:06,758 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\hp\\AppData\\Roaming\\Python\\Python312\\site-packages\\pinecone_plugins'])
+2024-11-04 13:55:06,758 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-04 13:55:06,916 - INFO - Installing plugin inference into Pinecone
+2024-11-04 13:55:20,202 - INFO - Connected to Pinecone index 'pdf-chatbot-index'.
+2024-11-04 13:55:20,207 - INFO - Use pytorch device_name: cpu
+2024-11-04 13:55:20,208 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-11-04 13:55:25,616 - INFO - Loaded Sentence Transformer model 'sentence-transformers/all-MiniLM-L6-v2'.
+2024-11-04 13:55:25,653 - INFO - Embedding dimension: 384
+2024-11-04 13:56:52,874 - ERROR - Error during intent extraction: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-04 13:56:52,875 - INFO - Extracted intent: 'Unknown'
+2024-11-04 13:56:52,927 - INFO - Generated embedding for query: 'What is the full form of LTTS?'
+2024-11-04 13:57:06,329 - INFO - Pinecone query response: {'matches': [{'id': 'fc883cf5-260a-4fcb-a18c-c62c5ddce893',
+              'metadata': {'text': 'We have adopted by LTTS for Data '
+                                   'responsible for the preparation and '
+                                   'factors, as the Company has global The '
+                                   'Company has a well-diversified portfolio '
+                                   'of customers and revenue- been making '
+                                   'constant efforts to Security development '
+                                   'of the Organization s operations. Further '
+                                   'there would mix spread across multiple '
+                                   'business units.'},
+              'score': 0.591325581,
+              'values': []},
+             {'id': '3848baba-1158-4c02-b353-ed9cd969bc4d',
+              'metadata': {'text': 'We have adopted by LTTS for Data '
+                                   'responsible for the preparation and '
+                                   'factors, as the Company has global The '
+                                   'Company has a well-diversified portfolio '
+                                   'of customers and revenue- been making '
+                                   'constant efforts to Security development '
+                                   'of the Organization s operations. Further '
+                                   'there would mix spread across multiple '
+                                   'business units.'},
+              'score': 0.591325581,
+              'values': []},
+             {'id': 'd426f8f3-5551-4ee4-9c04-40021e7a9237',
+              'metadata': {'chunk': 'We have adopted by LTTS for Data '
+                                    'responsible for the preparation and '
+                                    'factors, as the Company has global The '
+                                    'Company has a well-diversified portfolio '
+                                    'of customers and revenue- been making '
+                                    'constant efforts to Security development '
+                                    'of the Organization s operations. Further '
+                                    'there would mix spread across multiple '
+                                    'business units.'},
+              'score': 0.591325581,
+              'values': []},
+             {'id': 'd68603b4-021c-4432-9b13-311f65230f5c',
+              'metadata': {'text': 'We have adopted by LTTS for Data '
+                                   'responsible for the preparation and '
+                                   'factors, as the Company has global The '
+                                   'Company has a well-diversified portfolio '
+                                   'of customers and revenue- been making '
+                                   'constant efforts to Security development '
+                                   'of the Organization s operations. Further '
+                                   'there would mix spread across multiple '
+                                   'business units.'},
+              'score': 0.591325581,
+              'values': []},
+             {'id': 'bc234097-8887-4ec6-ba2f-a2231a98e978',
+              'metadata': {'text': 'We have adopted by LTTS for Data '
+                                   'responsible for the preparation and '
+                                   'factors, as the Company has global The '
+                                   'Company has a well-diversified portfolio '
+                                   'of customers and revenue- been making '
+                                   'constant efforts to Security development '
+                                   'of the Organization s operations. Further '
+                                   'there would mix spread across multiple '
+                                   'business units.'},
+              'score': 0.591325581,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}
+2024-11-04 14:00:43,836 - INFO - Connected to MongoDB Atlas.
+2024-11-04 14:00:43,838 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\hp\\AppData\\Roaming\\Python\\Python312\\site-packages\\pinecone_plugins'])
+2024-11-04 14:00:43,839 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-04 14:00:44,120 - INFO - Installing plugin inference into Pinecone
+2024-11-04 14:00:58,183 - INFO - Connected to Pinecone index 'pdf-chatbot-index'.
+2024-11-04 14:00:58,188 - INFO - Use pytorch device_name: cpu
+2024-11-04 14:00:58,188 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-11-04 14:01:03,791 - INFO - Loaded Sentence Transformer model 'sentence-transformers/all-MiniLM-L6-v2'.
+2024-11-04 14:01:03,877 - INFO - Embedding dimension: 384
+2024-11-04 14:02:22,960 - ERROR - Error during intent extraction: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-04 14:02:22,961 - INFO - Extracted intent: 'Unknown'
+2024-11-04 14:02:23,011 - INFO - Generated embedding for query: 'What is the full form of LTTS?'
+2024-11-04 14:02:36,577 - INFO - Pinecone query response: {'matches': [{'id': 'e111c9b3-8813-421e-a2b4-36e09af4a509',
+              'metadata': {'text': 'We have adopted by LTTS for Data '
+                                   'responsible for the preparation and '
+                                   'factors, as the Company has global The '
+                                   'Company has a well-diversified portfolio '
+                                   'of customers and revenue- been making '
+                                   'constant efforts to Security development '
+                                   'of the Organization s operations. Further '
+                                   'there would mix spread across multiple '
+                                   'business units.'},
+              'score': 0.591325581,
+              'values': []},
+             {'id': 'fc883cf5-260a-4fcb-a18c-c62c5ddce893',
+              'metadata': {'text': 'We have adopted by LTTS for Data '
+                                   'responsible for the preparation and '
+                                   'factors, as the Company has global The '
+                                   'Company has a well-diversified portfolio '
+                                   'of customers and revenue- been making '
+                                   'constant efforts to Security development '
+                                   'of the Organization s operations. Further '
+                                   'there would mix spread across multiple '
+                                   'business units.'},
+              'score': 0.591325581,
+              'values': []},
+             {'id': '3848baba-1158-4c02-b353-ed9cd969bc4d',
+              'metadata': {'text': 'We have adopted by LTTS for Data '
+                                   'responsible for the preparation and '
+                                   'factors, as the Company has global The '
+                                   'Company has a well-diversified portfolio '
+                                   'of customers and revenue- been making '
+                                   'constant efforts to Security development '
+                                   'of the Organization s operations. Further '
+                                   'there would mix spread across multiple '
+                                   'business units.'},
+              'score': 0.591325581,
+              'values': []},
+             {'id': 'd426f8f3-5551-4ee4-9c04-40021e7a9237',
+              'metadata': {'chunk': 'We have adopted by LTTS for Data '
+                                    'responsible for the preparation and '
+                                    'factors, as the Company has global The '
+                                    'Company has a well-diversified portfolio '
+                                    'of customers and revenue- been making '
+                                    'constant efforts to Security development '
+                                    'of the Organization s operations. Further '
+                                    'there would mix spread across multiple '
+                                    'business units.'},
+              'score': 0.591325581,
+              'values': []},
+             {'id': 'd68603b4-021c-4432-9b13-311f65230f5c',
+              'metadata': {'text': 'We have adopted by LTTS for Data '
+                                   'responsible for the preparation and '
+                                   'factors, as the Company has global The '
+                                   'Company has a well-diversified portfolio '
+                                   'of customers and revenue- been making '
+                                   'constant efforts to Security development '
+                                   'of the Organization s operations. Further '
+                                   'there would mix spread across multiple '
+                                   'business units.'},
+              'score': 0.591325581,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}
+2024-11-04 14:02:36,577 - INFO - Retrieved context for GPT: 'We have adopted by LTTS for Data responsible for the preparation and factors, as the Company has glo...'
+2024-11-04 22:59:12,593 - INFO - Connected to MongoDB Atlas.
+2024-11-04 22:59:12,596 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\hp\\AppData\\Roaming\\Python\\Python312\\site-packages\\pinecone_plugins'])
+2024-11-04 22:59:12,597 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-04 22:59:12,756 - INFO - Installing plugin inference into Pinecone
+2024-11-04 22:59:26,345 - INFO - Connected to Pinecone index 'pdf-chatbot-index'.
+2024-11-04 22:59:26,346 - INFO - Use pytorch device_name: cpu
+2024-11-04 22:59:26,347 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-11-04 22:59:32,168 - INFO - Loaded Sentence Transformer model 'sentence-transformers/all-MiniLM-L6-v2'.
+2024-11-04 22:59:32,355 - INFO - Embedding dimension: 384
+2024-11-04 23:25:57,902 - INFO - Connected to MongoDB Atlas.
+2024-11-04 23:25:57,903 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\hp\\AppData\\Roaming\\Python\\Python312\\site-packages\\pinecone_plugins'])
+2024-11-04 23:25:57,903 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-04 23:25:57,992 - INFO - Installing plugin inference into Pinecone
+2024-11-04 23:26:11,506 - INFO - Connected to Pinecone index 'pdf-chatbot-index'.
+2024-11-04 23:26:11,509 - INFO - Use pytorch device_name: cpu
+2024-11-04 23:26:11,509 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-11-04 23:26:15,722 - INFO - Loaded Sentence Transformer model 'sentence-transformers/all-MiniLM-L6-v2'.
+2024-11-04 23:26:15,761 - INFO - Embedding dimension: 384
+2024-11-04 23:34:24,430 - INFO - Connected to MongoDB Atlas.
+2024-11-04 23:34:24,431 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\hp\\AppData\\Roaming\\Python\\Python312\\site-packages\\pinecone_plugins'])
+2024-11-04 23:34:24,432 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-04 23:34:24,537 - INFO - Installing plugin inference into Pinecone
+2024-11-04 23:34:38,496 - INFO - Connected to Pinecone index 'pdf-chatbot-index'.
+2024-11-04 23:34:38,499 - INFO - Use pytorch device_name: cpu
+2024-11-04 23:34:38,499 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-11-04 23:34:42,103 - INFO - Loaded Sentence Transformer model 'sentence-transformers/all-MiniLM-L6-v2'.
+2024-11-04 23:34:42,130 - INFO - Embedding dimension: 384
+2024-11-04 23:35:48,158 - ERROR - Error during intent extraction: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-04 23:35:48,161 - INFO - Extracted intent: 'Unknown'
+2024-11-04 23:35:48,249 - INFO - Generated embedding for query: '?What is the full form of LTTS?'
+2024-11-04 23:36:01,694 - INFO - Pinecone query response: {'matches': [{'id': 'e111c9b3-8813-421e-a2b4-36e09af4a509',
+              'metadata': {'text': 'We have adopted by LTTS for Data '
+                                   'responsible for the preparation and '
+                                   'factors, as the Company has global The '
+                                   'Company has a well-diversified portfolio '
+                                   'of customers and revenue- been making '
+                                   'constant efforts to Security development '
+                                   'of the Organization s operations. Further '
+                                   'there would mix spread across multiple '
+                                   'business units.'},
+              'score': 0.585740685,
+              'values': []},
+             {'id': '3848baba-1158-4c02-b353-ed9cd969bc4d',
+              'metadata': {'text': 'We have adopted by LTTS for Data '
+                                   'responsible for the preparation and '
+                                   'factors, as the Company has global The '
+                                   'Company has a well-diversified portfolio '
+                                   'of customers and revenue- been making '
+                                   'constant efforts to Security development '
+                                   'of the Organization s operations. Further '
+                                   'there would mix spread across multiple '
+                                   'business units.'},
+              'score': 0.585740685,
+              'values': []},
+             {'id': 'fc883cf5-260a-4fcb-a18c-c62c5ddce893',
+              'metadata': {'text': 'We have adopted by LTTS for Data '
+                                   'responsible for the preparation and '
+                                   'factors, as the Company has global The '
+                                   'Company has a well-diversified portfolio '
+                                   'of customers and revenue- been making '
+                                   'constant efforts to Security development '
+                                   'of the Organization s operations. Further '
+                                   'there would mix spread across multiple '
+                                   'business units.'},
+              'score': 0.585740685,
+              'values': []},
+             {'id': 'd426f8f3-5551-4ee4-9c04-40021e7a9237',
+              'metadata': {'chunk': 'We have adopted by LTTS for Data '
+                                    'responsible for the preparation and '
+                                    'factors, as the Company has global The '
+                                    'Company has a well-diversified portfolio '
+                                    'of customers and revenue- been making '
+                                    'constant efforts to Security development '
+                                    'of the Organization s operations. Further '
+                                    'there would mix spread across multiple '
+                                    'business units.'},
+              'score': 0.585740685,
+              'values': []},
+             {'id': 'd68603b4-021c-4432-9b13-311f65230f5c',
+              'metadata': {'text': 'We have adopted by LTTS for Data '
+                                   'responsible for the preparation and '
+                                   'factors, as the Company has global The '
+                                   'Company has a well-diversified portfolio '
+                                   'of customers and revenue- been making '
+                                   'constant efforts to Security development '
+                                   'of the Organization s operations. Further '
+                                   'there would mix spread across multiple '
+                                   'business units.'},
+              'score': 0.585740685,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}
+2024-11-04 23:36:09,832 - ERROR - Error during intent extraction: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-04 23:36:09,832 - INFO - Extracted intent: 'Unknown'
+2024-11-04 23:36:10,185 - INFO - Generated embedding for query: 'What is the full form of LTTS?'
+2024-11-04 23:36:10,446 - INFO - Pinecone query response: {'matches': [{'id': '769415c5-889b-4ecb-8147-7463dbee9be7',
+              'metadata': {'pdf_id': '82cfd253-37f7-4312-9587-d94b1807b784',
+                           'text': 'We have adopted by LTTS for Data '
+                                   'responsible for the preparation and '
+                                   'factors, as the Company has global The '
+                                   'Company has a well-diversified portfolio '
+                                   'of customers and revenue- been making '
+                                   'constant efforts to Security development '
+                                   'of the Organization s operations. Further '
+                                   'there would mix spread across multiple '
+                                   'business units.'},
+              'score': 0.591325581,
+              'values': []},
+             {'id': 'fc883cf5-260a-4fcb-a18c-c62c5ddce893',
+              'metadata': {'text': 'We have adopted by LTTS for Data '
+                                   'responsible for the preparation and '
+                                   'factors, as the Company has global The '
+                                   'Company has a well-diversified portfolio '
+                                   'of customers and revenue- been making '
+                                   'constant efforts to Security development '
+                                   'of the Organization s operations. Further '
+                                   'there would mix spread across multiple '
+                                   'business units.'},
+              'score': 0.591325581,
+              'values': []},
+             {'id': '3848baba-1158-4c02-b353-ed9cd969bc4d',
+              'metadata': {'text': 'We have adopted by LTTS for Data '
+                                   'responsible for the preparation and '
+                                   'factors, as the Company has global The '
+                                   'Company has a well-diversified portfolio '
+                                   'of customers and revenue- been making '
+                                   'constant efforts to Security development '
+                                   'of the Organization s operations. Further '
+                                   'there would mix spread across multiple '
+                                   'business units.'},
+              'score': 0.591325581,
+              'values': []},
+             {'id': 'd426f8f3-5551-4ee4-9c04-40021e7a9237',
+              'metadata': {'chunk': 'We have adopted by LTTS for Data '
+                                    'responsible for the preparation and '
+                                    'factors, as the Company has global The '
+                                    'Company has a well-diversified portfolio '
+                                    'of customers and revenue- been making '
+                                    'constant efforts to Security development '
+                                    'of the Organization s operations. Further '
+                                    'there would mix spread across multiple '
+                                    'business units.'},
+              'score': 0.591325581,
+              'values': []},
+             {'id': 'd68603b4-021c-4432-9b13-311f65230f5c',
+              'metadata': {'text': 'We have adopted by LTTS for Data '
+                                   'responsible for the preparation and '
+                                   'factors, as the Company has global The '
+                                   'Company has a well-diversified portfolio '
+                                   'of customers and revenue- been making '
+                                   'constant efforts to Security development '
+                                   'of the Organization s operations. Further '
+                                   'there would mix spread across multiple '
+                                   'business units.'},
+              'score': 0.591325581,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}
+2024-11-04 23:39:24,322 - INFO - Connected to MongoDB Atlas.
+2024-11-04 23:39:24,323 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\hp\\AppData\\Roaming\\Python\\Python312\\site-packages\\pinecone_plugins'])
+2024-11-04 23:39:24,324 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-04 23:39:24,424 - INFO - Installing plugin inference into Pinecone
+2024-11-04 23:39:39,133 - INFO - Connected to Pinecone index 'pdf-chatbot-index'.
+2024-11-04 23:39:39,134 - INFO - Use pytorch device_name: cpu
+2024-11-04 23:39:39,134 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-11-04 23:39:44,233 - INFO - Loaded Sentence Transformer model 'sentence-transformers/all-MiniLM-L6-v2'.
+2024-11-04 23:39:44,343 - INFO - Embedding dimension: 384
+2024-11-04 23:41:12,149 - ERROR - Error during intent extraction: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-04 23:41:12,150 - INFO - Extracted intent: 'Unknown'
+2024-11-04 23:41:12,214 - INFO - Generated embedding for query: 'Total of how many countries is Infosys located?'
+2024-11-04 23:41:25,317 - INFO - Pinecone query response: {'matches': [{'id': 'ffe743ce-7f29-4ee6-b1ab-3fe7f4b10b66',
+              'metadata': {'text': 'Today, we have offices across six '
+                                   'continents.\n'
+                                   'For details of our global locations, '
+                                   'visit  \n'
+                                   'https://www.infosys.com/investors/reports-filings/documents/global-presence2024.pdf\n'
+                                   'Global Presence\n'
+                                   'Corporate overview\n'
+                                   'Global footprint\n'
+                                   '56\n'
+                                   'No. of countries\n'
+                                   'No.'},
+              'score': 0.660005927,
+              'values': []},
+             {'id': '9adf3850-e941-446c-981d-62ce23150c64',
+              'metadata': {'text': 'Today, we have offices across six '
+                                   'continents.\n'
+                                   'For details of our global locations, '
+                                   'visit  \n'
+                                   'https://www.infosys.com/investors/reports-filings/documents/global-presence2024.pdf\n'
+                                   'Global Presence\n'
+                                   'Corporate overview\n'
+                                   'Global footprint\n'
+                                   '56\n'
+                                   'No. of countries\n'
+                                   'No.'},
+              'score': 0.660005927,
+              'values': []},
+             {'id': 'a66a251d-dbe6-467a-b1a1-62406da7d030',
+              'metadata': {'text': 'For details of our global locations, visit '
+                                   'https://www.infosys.com/investors/reports-filings/documents/global-presence2024.pdf '
+                                   'Global footprint No. of countries 56 '
+                                   'Denmark Finland No.'},
+              'score': 0.628010809,
+              'values': []},
+             {'id': 'b9e69a7e-d367-4191-9a72-db956b93bf77',
+              'metadata': {'text': 'Infosys | ESG REPORT 2023-24 External '
+                                   'Document 2024 Infosys Limited 36 '
+                                   'Energizing local communities SOCIAL ESG '
+                                   'REPORT 2023-24 The world over, Infosys is '
+                                   'committed to going local In the third '
+                                   'edition of the prestigious Aarohan Social '
+                                   'the help of digital classrooms set-up by '
+                                   'our NGO Every quarter, approximately 1,000 '
+                                   'people from the to strengthen its profile '
+                                   'as an employer of choice for Innovation '
+                                   'awards, a total of `2 crore was awarded '
+                                   'partners eVidyaloka, MaunaDhwani '
+                                   'Foundation, lower socio-economic '
+                                   'backgrounds are benefitted employees and '
+                                   'be a part of the local culture.'},
+              'score': 0.561494291,
+              'values': []},
+             {'id': '8cce36a9-f192-4108-b1a1-a42c64efeb23',
+              'metadata': {'text': 'Infosys is responsible for network include '
+                                   'the "Youth in d " program, under which '
+                                   'architecture, 5G networks and integration '
+                                   'services. Education: In Romania, schools '
+                                   'are invited to Infosys conducts training '
+                                   'for students on various visit the Company '
+                                   'facilities. This helps us engage topics.'},
+              'score': 0.552947521,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}
+2024-11-04 23:41:25,317 - INFO - Retrieved context for GPT: 'Today, we have offices across six continents.
+For details of our global locations, visit  
+https://w...'
+2024-11-04 23:41:25,317 - ERROR - Failed to generate response from OpenAI: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-04 23:42:44,961 - INFO - Connected to MongoDB Atlas.
+2024-11-04 23:42:44,962 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\hp\\AppData\\Roaming\\Python\\Python312\\site-packages\\pinecone_plugins'])
+2024-11-04 23:42:44,962 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-04 23:42:44,973 - INFO - Installing plugin inference into Pinecone
+2024-11-04 23:42:58,751 - INFO - Connected to Pinecone index 'pdf-chatbot-index'.
+2024-11-04 23:42:58,756 - INFO - Use pytorch device_name: cpu
+2024-11-04 23:42:58,756 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-11-04 23:43:04,345 - INFO - Loaded Sentence Transformer model 'sentence-transformers/all-MiniLM-L6-v2'.
+2024-11-04 23:43:04,472 - INFO - Embedding dimension: 384
+2024-11-04 23:45:43,591 - INFO - Connected to MongoDB Atlas.
+2024-11-04 23:45:43,592 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\hp\\AppData\\Roaming\\Python\\Python312\\site-packages\\pinecone_plugins'])
+2024-11-04 23:45:43,593 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-04 23:45:43,606 - INFO - Installing plugin inference into Pinecone
+2024-11-04 23:45:57,035 - INFO - Connected to Pinecone index 'pdf-chatbot-index'.
+2024-11-04 23:45:57,039 - INFO - Use pytorch device_name: cpu
+2024-11-04 23:45:57,039 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-11-04 23:46:03,159 - INFO - Loaded Sentence Transformer model 'sentence-transformers/all-MiniLM-L6-v2'.
+2024-11-04 23:46:03,275 - INFO - Embedding dimension: 384
+2024-11-04 23:47:14,225 - INFO - Extracted intent: The intent of the query "What is the full form of LTTS?" is to seek information about the complete or expanded form of the acronym LTTS. for query: 'What is the full form of LTTS?'
+2024-11-04 23:47:14,226 - INFO - Extracted intent: 'The intent of the query "What is the full form of LTTS?" is to seek information about the complete or expanded form of the acronym LTTS.'
+2024-11-04 23:47:14,277 - INFO - Generated embedding for query: 'What is the full form of LTTS?'
+2024-11-04 23:47:27,594 - INFO - Pinecone query response: {'matches': [{'id': 'bc234097-8887-4ec6-ba2f-a2231a98e978',
+              'metadata': {'text': 'We have adopted by LTTS for Data '
+                                   'responsible for the preparation and '
+                                   'factors, as the Company has global The '
+                                   'Company has a well-diversified portfolio '
+                                   'of customers and revenue- been making '
+                                   'constant efforts to Security development '
+                                   'of the Organization s operations. Further '
+                                   'there would mix spread across multiple '
+                                   'business units.'},
+              'score': 0.591325581,
+              'values': []},
+             {'id': 'fc883cf5-260a-4fcb-a18c-c62c5ddce893',
+              'metadata': {'text': 'We have adopted by LTTS for Data '
+                                   'responsible for the preparation and '
+                                   'factors, as the Company has global The '
+                                   'Company has a well-diversified portfolio '
+                                   'of customers and revenue- been making '
+                                   'constant efforts to Security development '
+                                   'of the Organization s operations. Further '
+                                   'there would mix spread across multiple '
+                                   'business units.'},
+              'score': 0.591325581,
+              'values': []},
+             {'id': '3848baba-1158-4c02-b353-ed9cd969bc4d',
+              'metadata': {'text': 'We have adopted by LTTS for Data '
+                                   'responsible for the preparation and '
+                                   'factors, as the Company has global The '
+                                   'Company has a well-diversified portfolio '
+                                   'of customers and revenue- been making '
+                                   'constant efforts to Security development '
+                                   'of the Organization s operations. Further '
+                                   'there would mix spread across multiple '
+                                   'business units.'},
+              'score': 0.591325581,
+              'values': []},
+             {'id': 'd426f8f3-5551-4ee4-9c04-40021e7a9237',
+              'metadata': {'chunk': 'We have adopted by LTTS for Data '
+                                    'responsible for the preparation and '
+                                    'factors, as the Company has global The '
+                                    'Company has a well-diversified portfolio '
+                                    'of customers and revenue- been making '
+                                    'constant efforts to Security development '
+                                    'of the Organization s operations. Further '
+                                    'there would mix spread across multiple '
+                                    'business units.'},
+              'score': 0.591325581,
+              'values': []},
+             {'id': 'd68603b4-021c-4432-9b13-311f65230f5c',
+              'metadata': {'text': 'We have adopted by LTTS for Data '
+                                   'responsible for the preparation and '
+                                   'factors, as the Company has global The '
+                                   'Company has a well-diversified portfolio '
+                                   'of customers and revenue- been making '
+                                   'constant efforts to Security development '
+                                   'of the Organization s operations. Further '
+                                   'there would mix spread across multiple '
+                                   'business units.'},
+              'score': 0.591325581,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}
+2024-11-04 23:47:27,594 - INFO - Retrieved context for GPT: 'We have adopted by LTTS for Data responsible for the preparation and factors, as the Company has glo...'
+2024-11-04 23:48:27,635 - INFO - Connected to MongoDB Atlas.
+2024-11-04 23:48:27,636 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\hp\\AppData\\Roaming\\Python\\Python312\\site-packages\\pinecone_plugins'])
+2024-11-04 23:48:27,636 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-04 23:48:27,651 - INFO - Installing plugin inference into Pinecone
+2024-11-04 23:48:41,352 - INFO - Connected to Pinecone index 'pdf-chatbot-index'.
+2024-11-04 23:48:41,355 - INFO - Use pytorch device_name: cpu
+2024-11-04 23:48:41,355 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-11-04 23:48:44,982 - INFO - Loaded Sentence Transformer model 'sentence-transformers/all-MiniLM-L6-v2'.
+2024-11-04 23:48:45,137 - INFO - Embedding dimension: 384
+2024-11-04 23:49:57,623 - INFO - Extracted intent: The intent of the query "What is the full form of LTTS?" is to seek information about the complete or expanded form of the acronym LTTS. for query: 'What is the full form of LTTS?'
+2024-11-04 23:49:57,625 - INFO - Extracted intent: 'The intent of the query "What is the full form of LTTS?" is to seek information about the complete or expanded form of the acronym LTTS.'
+2024-11-04 23:49:57,675 - INFO - Generated embedding for query: 'What is the full form of LTTS?'
+2024-11-04 23:50:11,354 - INFO - Pinecone query response: {'matches': [{'id': 'e111c9b3-8813-421e-a2b4-36e09af4a509',
+              'metadata': {'text': 'We have adopted by LTTS for Data '
+                                   'responsible for the preparation and '
+                                   'factors, as the Company has global The '
+                                   'Company has a well-diversified portfolio '
+                                   'of customers and revenue- been making '
+                                   'constant efforts to Security development '
+                                   'of the Organization s operations. Further '
+                                   'there would mix spread across multiple '
+                                   'business units.'},
+              'score': 0.591325581,
+              'values': []},
+             {'id': 'fc883cf5-260a-4fcb-a18c-c62c5ddce893',
+              'metadata': {'text': 'We have adopted by LTTS for Data '
+                                   'responsible for the preparation and '
+                                   'factors, as the Company has global The '
+                                   'Company has a well-diversified portfolio '
+                                   'of customers and revenue- been making '
+                                   'constant efforts to Security development '
+                                   'of the Organization s operations. Further '
+                                   'there would mix spread across multiple '
+                                   'business units.'},
+              'score': 0.591325581,
+              'values': []},
+             {'id': '3848baba-1158-4c02-b353-ed9cd969bc4d',
+              'metadata': {'text': 'We have adopted by LTTS for Data '
+                                   'responsible for the preparation and '
+                                   'factors, as the Company has global The '
+                                   'Company has a well-diversified portfolio '
+                                   'of customers and revenue- been making '
+                                   'constant efforts to Security development '
+                                   'of the Organization s operations. Further '
+                                   'there would mix spread across multiple '
+                                   'business units.'},
+              'score': 0.591325581,
+              'values': []},
+             {'id': 'd426f8f3-5551-4ee4-9c04-40021e7a9237',
+              'metadata': {'chunk': 'We have adopted by LTTS for Data '
+                                    'responsible for the preparation and '
+                                    'factors, as the Company has global The '
+                                    'Company has a well-diversified portfolio '
+                                    'of customers and revenue- been making '
+                                    'constant efforts to Security development '
+                                    'of the Organization s operations. Further '
+                                    'there would mix spread across multiple '
+                                    'business units.'},
+              'score': 0.591325581,
+              'values': []},
+             {'id': 'd68603b4-021c-4432-9b13-311f65230f5c',
+              'metadata': {'text': 'We have adopted by LTTS for Data '
+                                   'responsible for the preparation and '
+                                   'factors, as the Company has global The '
+                                   'Company has a well-diversified portfolio '
+                                   'of customers and revenue- been making '
+                                   'constant efforts to Security development '
+                                   'of the Organization s operations. Further '
+                                   'there would mix spread across multiple '
+                                   'business units.'},
+              'score': 0.591325581,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}
+2024-11-04 23:50:11,354 - INFO - Retrieved context for GPT: 'We have adopted by LTTS for Data responsible for the preparation and factors, as the Company has glo...'
+2024-11-04 23:50:12,016 - INFO - Generated answer from OpenAI: 'The full form of LTTS is L&T Technology Services.'
+2024-11-04 23:50:34,964 - INFO - Logged conversation successfully to MongoDB with _id: 6729105c34a97a051c7eda80.
+2024-11-04 23:55:47,433 - INFO - Extracted intent: The intent of the query is to determine the total number of countries where the company Infosys has a presence or operates in. for query: 'Total No. of Countries Where Infosys is located?'
+2024-11-04 23:55:47,433 - INFO - Extracted intent: 'The intent of the query is to determine the total number of countries where the company Infosys has a presence or operates in.'
+2024-11-04 23:55:47,573 - INFO - Generated embedding for query: 'Total No. of Countries Where Infosys is located?'
+2024-11-04 23:56:00,358 - INFO - Pinecone query response: {'matches': [{'id': 'ffe743ce-7f29-4ee6-b1ab-3fe7f4b10b66',
+              'metadata': {'text': 'Today, we have offices across six '
+                                   'continents.\n'
+                                   'For details of our global locations, '
+                                   'visit  \n'
+                                   'https://www.infosys.com/investors/reports-filings/documents/global-presence2024.pdf\n'
+                                   'Global Presence\n'
+                                   'Corporate overview\n'
+                                   'Global footprint\n'
+                                   '56\n'
+                                   'No. of countries\n'
+                                   'No.'},
+              'score': 0.645765126,
+              'values': []},
+             {'id': '9adf3850-e941-446c-981d-62ce23150c64',
+              'metadata': {'text': 'Today, we have offices across six '
+                                   'continents.\n'
+                                   'For details of our global locations, '
+                                   'visit  \n'
+                                   'https://www.infosys.com/investors/reports-filings/documents/global-presence2024.pdf\n'
+                                   'Global Presence\n'
+                                   'Corporate overview\n'
+                                   'Global footprint\n'
+                                   '56\n'
+                                   'No. of countries\n'
+                                   'No.'},
+              'score': 0.645765126,
+              'values': []},
+             {'id': 'a66a251d-dbe6-467a-b1a1-62406da7d030',
+              'metadata': {'text': 'For details of our global locations, visit '
+                                   'https://www.infosys.com/investors/reports-filings/documents/global-presence2024.pdf '
+                                   'Global footprint No. of countries 56 '
+                                   'Denmark Finland No.'},
+              'score': 0.637135,
+              'values': []},
+             {'id': '8cce36a9-f192-4108-b1a1-a42c64efeb23',
+              'metadata': {'text': 'Infosys is responsible for network include '
+                                   'the "Youth in d " program, under which '
+                                   'architecture, 5G networks and integration '
+                                   'services. Education: In Romania, schools '
+                                   'are invited to Infosys conducts training '
+                                   'for students on various visit the Company '
+                                   'facilities. This helps us engage topics.'},
+              'score': 0.54628545,
+              'values': []},
+             {'id': 'b9e69a7e-d367-4191-9a72-db956b93bf77',
+              'metadata': {'text': 'Infosys | ESG REPORT 2023-24 External '
+                                   'Document 2024 Infosys Limited 36 '
+                                   'Energizing local communities SOCIAL ESG '
+                                   'REPORT 2023-24 The world over, Infosys is '
+                                   'committed to going local In the third '
+                                   'edition of the prestigious Aarohan Social '
+                                   'the help of digital classrooms set-up by '
+                                   'our NGO Every quarter, approximately 1,000 '
+                                   'people from the to strengthen its profile '
+                                   'as an employer of choice for Innovation '
+                                   'awards, a total of `2 crore was awarded '
+                                   'partners eVidyaloka, MaunaDhwani '
+                                   'Foundation, lower socio-economic '
+                                   'backgrounds are benefitted employees and '
+                                   'be a part of the local culture.'},
+              'score': 0.542652667,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}
+2024-11-04 23:56:00,358 - INFO - Retrieved context for GPT: 'Today, we have offices across six continents.
+For details of our global locations, visit  
+https://w...'
+2024-11-04 23:56:00,995 - INFO - Generated answer from OpenAI: 'Infosys has a presence in 56 countries worldwide.'
+2024-11-04 23:56:01,065 - INFO - Logged conversation successfully to MongoDB with _id: 672911b834a97a051c7eda81.
+2024-11-04 23:57:50,071 - INFO - Extracted intent: The intent of the query is to inquire about the primary subjects or themes covered in a document that has been uploaded or shared. for query: 'What are the main topics of the uploaded Document?'
+2024-11-04 23:57:50,071 - INFO - Extracted intent: 'The intent of the query is to inquire about the primary subjects or themes covered in a document that has been uploaded or shared.'
+2024-11-04 23:57:50,204 - INFO - Generated embedding for query: 'What are the main topics of the uploaded Document?'
+2024-11-04 23:58:02,912 - INFO - Pinecone query response: {'matches': [{'id': '1ce22614-7780-42ba-9e6a-f6c919bd871a',
+              'metadata': {'text': 'goals and developed the lens further in a '
+                                   'more practical and comprehensive manner, '
+                                   'to broaden our ESG focus and rank our '
+                                   'priorities in order of their importance to '
+                                   'our business and our stakeholders. Our '
+                                   'approach We determined our most material '
+                                   'issues through a data-driven and '
+                                   'consultative exercise. Material topics '
+                                   'were shortlisted and prioritized based on '
+                                   'their impact on our stakeholders and our '
+                                   'business.'},
+              'score': 0.350378931,
+              'values': []},
+             {'id': '01d9b331-993f-4eac-b230-e92a031311c1',
+              'metadata': {'text': 'A similar symposium is proposed contact '
+                                   'details of the data privacy officer or the '
+                                   'data and unstructured formats are spread '
+                                   'across to be organized in 2024 in '
+                                   'collaboration with protection officer. We '
+                                   'also provide the data subjects systems and '
+                                   'servers in multiple geographies with '
+                                   'international bodies. with the necessary '
+                                   'guidance and support to protect diverse '
+                                   'regulatory regimes. Infosys has '
+                                   'established All employees and '
+                                   'sub-contractors must also their rights and '
+                                   'interests.'},
+              'score': 0.327741474,
+              'values': []},
+             {'id': '3e58b064-388e-45c1-a903-62b038ac26f2',
+              'metadata': {'text': 'Except as expressly permitted, neither '
+                                   'this documentation nor any part of it may '
+                                   'be reproduced, stored in a retrieval '
+                                   'system, or transmitted in any form or by '
+                                   'any means, electronic, mechanical, '
+                                   'printing, photocopying, recording or '
+                                   'otherwise, without the prior permission of '
+                                   'Infosys Limited and / or any named '
+                                   'intellectual property rights holders under '
+                                   'this document. Creative concept and design '
+                                   'by Communication Design Group, Infosys '
+                                   'Limited. 2024 Infosys Limited, Bengaluru, '
+                                   'India.'},
+              'score': 0.324147612,
+              'values': []},
+             {'id': 'dbc181e6-ee7b-4255-93b6-e39eeee38a01',
+              'metadata': {'text': 'Testing, on a sample basis, of evidence '
+                                   'supporting the data. Verification of the '
+                                   'sample data evidence and information on '
+                                   'selected material topics reported at the '
+                                   'above-mentioned operations for the defined '
+                                   'reporting period.'},
+              'score': 0.321582198,
+              'values': []},
+             {'id': '17fa827b-efc7-4efd-a345-9d4b1160716e',
+              'metadata': {'text': 'Testing, on a sample basis, of evidence '
+                                   'supporting the data. Verification of the '
+                                   'sample data evidence and information on '
+                                   'selected material topics reported at the '
+                                   'above-mentioned operations for the defined '
+                                   'reporting period.'},
+              'score': 0.321582198,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}
+2024-11-04 23:58:02,913 - INFO - Retrieved context for GPT: 'goals and developed the lens further in a more practical and comprehensive manner, to broaden our ES...'
+2024-11-04 23:58:04,459 - INFO - Generated answer from OpenAI: 'The main topics of the uploaded document are the prioritization of material issues based on their impact on stakeholders and business, data privacy, protection of rights and interests of employees and sub-contractors, and the verification of sample data evidence on selected material topics reported during the defined reporting period.'
+2024-11-04 23:58:04,560 - INFO - Logged conversation successfully to MongoDB with _id: 6729123434a97a051c7eda82.
