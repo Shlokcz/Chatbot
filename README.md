@@ -1,4 +1,5 @@
 Chatbot Project
+
 This is a conversational chatbot built using FastAPI and OpenAI’s GPT-3.5 model. The project serves as a smart, interactive assistant capable of handling a wide range of queries with natural, contextual responses, ideal for use cases like customer support or interactive websites.
 
 Key Features
